@@ -21,7 +21,7 @@ bool getContent(string fName, vector<string> & vect){
 	
     if(!in)
     {
-        cerr << "Cannot open the File : "<<fName<<endl;
+        cerr << "No es posible abrir el archivo : "<<fName<<endl;
         return false;
     }
     string str;
